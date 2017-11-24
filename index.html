@@ -17,18 +17,37 @@
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" required><br>
+            E-mail:
+            <input type="email" name="email" required><br>
 
             <!--add your own inputs below-->
-
-
-
-
-
-
-
-
+            Phone #:
+            <input type="tel" name="phone" placeholder="phone">
+            <br>
+            
+            Do you think you are ready for college?
+            <input type="radio" name="yes" value="yes">Yes
+            <input type="radio" name="no" value="no">No
+            
+            <br>
+            
+           Select the following that is true to you.  
+           <br>
+            <input type="checkbox" name="GPA" value="85+">Has a GPA of 85 and/or above.<br>
+            <input type="checkbox" name="Extracurricular activities" value="1+clubs/sports">Joined at least 1 clubs/sports<br>
+            <input type="checkbox" name="SAT" value="1000+">Has a PSAT or SAT score of at least 1000
+            
+            <br>
+          
+             What Year do you graduate? 
+             <select name="year">
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+            </select>
+            <br>
+            
             <!--add your own inputs above-->
 
             <input class="blue-button" type="submit" value="Submit">
